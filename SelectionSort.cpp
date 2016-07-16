@@ -9,9 +9,6 @@
 
 //2 3 | 5 7 4 9  // so value of index2 will be replaced by value on index4
 // searches for the minimum no in the remaining list
- 
-#include <iostream>
-using namespace std;
 
 #include <iostream>
 #include <string>
