@@ -37,7 +37,7 @@ for (int i=0;i<5;i++)
 	}
 }
 
-void insertion_sort(int A[], int size)
+void selection_sort(int A[], int size)
 {
 	for (int i=0; i<size; i++)
 	{
@@ -58,7 +58,7 @@ int main ()
 		}
 	disp(A,5);
 	cout <<endl;
-	insertion_sort(A, 5); 
+	selection_sort(A, 5); 
 	disp (A, 5);
 	
 	system ("pause");
