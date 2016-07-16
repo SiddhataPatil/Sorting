@@ -3,7 +3,7 @@
  Name        : bubbleSort.cpp
  Author      : Siddhata Patil
  Copyright   : Copyright ©  Siddhata Patil. Sourcecode rights reserved.
- Description : Bubble Sort [Best - O(n) Worst - O(n^2)]
+ Description : Bubble Sort [Time Complexity: Best - O(n) Worst - O(n^2) Space Complexity: O(1)]
  ==============================================================================
  */
  
