@@ -19,16 +19,16 @@ using namespace std;
 using namespace std;
 
 int find (int A[], int size, int i)
-{int t=i;
+{
 for (int s= i+1; s<size; s++)
 {
 
-	if (A[s] < A[t])
+	if (A[s] < A[i])
 	{
-		t=s;
+		i=s;
 	}
 }
-return t;
+return i;
 }
 
 void disp (int A[], int size)
