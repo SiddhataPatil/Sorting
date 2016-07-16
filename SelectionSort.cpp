@@ -3,7 +3,7 @@
  Name        : SelectionSort.cpp
  Author      : Siddhata Patil
  Copyright   : Copyright ©  Siddhata Patil. Sourcecode rights reserved.
- Description : Insertion Sort [Time Complexity: Best - O(n^2) Worst - O(n^2) Space Complexity: O(1)]
+ Description : Selection Sort [Time Complexity: Best - O(n^2) Worst - O(n^2) Space Complexity: O(1)]
  ==============================================================================
  */
 
