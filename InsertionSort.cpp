@@ -3,7 +3,7 @@
  Name        : InsertionSort.cpp
  Author      : Siddhata Patil
  Copyright   : Copyright ©  Siddhata Patil. Sourcecode rights reserved.
- logic help by http://cforbeginners.com
+ logic help by http://cforbeginners.com // I found their logic simplest
  Description : Insertion Sort [Time complexity: Best - O(n) Worst - O(n^2)] Space Complexity: O(1)
  ==============================================================================
  */
