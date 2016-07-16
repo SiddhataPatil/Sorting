@@ -7,6 +7,8 @@
  ==============================================================================
  */
  
+ //2 3 | 5 7 4 9  // so value of index2 will be replaced by value on index4
+ 
 #include <iostream>
 using namespace std;
 
