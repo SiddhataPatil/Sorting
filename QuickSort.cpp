@@ -6,18 +6,6 @@
  Description : Quick Sort [Time complexity: Best - O(nlogn) Worst - O(n^2)] Space Complexity: O(log(n))
  ==============================================================================
  */
- 
-#include <iostream>
-using namespace std;
-
-/*
- ==============================================================================
- Name        : QuickSort.cpp
- Author      : Siddhata Patil
- Copyright   : Copyright ©  Siddhata Patil. Sourcecode rights reserved.
- Description : Quick Sort [Time complexity: Best - O(nlogn) Worst - O(n^2)] Space Complexity: O(log(n))
- ==============================================================================
- */
 
 #include <iostream>
 using namespace std;
