@@ -10,6 +10,18 @@
 #include <iostream>
 using namespace std;
 
+/*
+ ==============================================================================
+ Name        : QuickSort.cpp
+ Author      : Siddhata Patil
+ Copyright   : Copyright ©  Siddhata Patil. Sourcecode rights reserved.
+ Description : Quick Sort [Time complexity: Best - O(nlogn) Worst - O(n^2)] Space Complexity: O(log(n))
+ ==============================================================================
+ */
+
+#include <iostream>
+using namespace std;
+
 int pivot=0;
 void quick_sort(int* A, int start, int end)
 {
@@ -25,7 +37,7 @@ void quick_sort(int* A, int start, int end)
 	{
 	}
 	else{
-		while(next<end)
+		while(next<=end)
 		{
 			if(pivot==0)
 			{
@@ -35,7 +47,7 @@ void quick_sort(int* A, int start, int end)
 			s++;
 			next++;
 			}
-			else 
+			else
 			{
 			large[t]=A[next+1];
 			t++;
@@ -53,7 +65,7 @@ void quick_sort(int* A, int start, int end)
 			if(next==pivot)
 			next++;
 			}
-			else 
+			else
 			{
 			large[t]=A[next];
 			t++;
@@ -80,11 +92,21 @@ void quick_sort(int* A, int start, int end)
 	{
 	cout<<"modifiedLarge["<<f<<"]"<<large[f]<<endl;
 	}
-	for(int k=s-1; k>=0;k--)
+	if(pivot==0)
+    		{
+    		for(int k=s-1; k>=0;k--)
+		{
+		quick[q] = small[k];
+		q++;
+		}
+    		}
+    	else
+        for(int k=0; k<s;k++)
 	{
 	quick[q] = small[k];
 	q++;
 	}
+
 	for(int f=0; f<s;f++)
 	{
 	cout<<"QuickSmall["<<f<<"]"<<quick[f]<<endl;
