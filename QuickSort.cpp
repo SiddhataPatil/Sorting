@@ -1,3 +1,6 @@
+#include <iostream>
+using namespace std;
+
 /*
  ==============================================================================
  Name        : QuickSort.cpp
@@ -21,7 +24,7 @@ void quick_sort(int* A, int start, int end)
 	int t=0;
 	int q=0;
 	int next = start;
-	if(pivot>end)
+	if(pivot>=end)
 	{
 	}
 	else{
@@ -81,14 +84,14 @@ void quick_sort(int* A, int start, int end)
 	cout<<"modifiedLarge["<<f<<"]"<<large[f]<<endl;
 	}
 	if(pivot==0)
-    		{
-    		for(int k=s-1; k>=0;k--)
-		{
-		quick[q] = small[k];
-		q++;
-		}
-    		}
-    	else
+    {
+    for(int k=s-1; k>=0;k--)
+	{
+	quick[q] = small[k];
+	q++;
+	}
+    }
+    else
         for(int k=0; k<s;k++)
 	{
 	quick[q] = small[k];
@@ -119,19 +122,17 @@ void quick_sort(int* A, int start, int end)
 	{
 	A[f] = quick[f];
 	}
+
 	quick_sort(A,start,end);
 	} //else bracket
-	for (int f=0; f<size; f++)
-	{
-	A[f] = quick[f];
-	}
+
 	delete[] small;
 	delete[] large;
-	/*delete[] quick;*/
+	delete[] quick;
 }
 int main()
 {
-	int Array1[5]={12,5,17,2,99};
+	int Array1[5]={1,55,17,12,2};
 	quick_sort(Array1, 0,4);
 	cout<<"After Sorting"<<endl;
 	for(int i=0; i<5; i++)
